@@ -271,11 +271,11 @@ a:focus {
     background-color: #000;
     -webkit-background-size: contain; /* <-- zmieniono z cover */
     -moz-background-size: contain;
-    background-size: contain;
+    background-size: cover;
     -o-background-size: contain;
     background-repeat: no-repeat; /* <-- dodane */
     background-position: center; /* <-- dodane */
-    min-height: 600px; /* <-- dodane */
+    min-height: 100vh; /* <-- dodane */
     position: relative; /* <-- dodane */
     z-index: 0
 }
